@@ -1,0 +1,605 @@
+/* -----------------------------------------
+Font Setup
+------------------------------------------ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* -----------------------------------------
+Color Setup
+------------------------------------------ */
+:root {
+  --orange: #ff9900;
+  --orange-light: #fef2e3;
+  --red: #c92933;
+  --red-light: #faeaeb;
+  --blue: #2d7fff;
+  --blue-light: #c8deff;
+  --gray: #4b4b4b;
+  --gray-light: #f6f6fa;
+  --black: #191a19;
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.m-6 {
+  margin: 3rem;
+}
+
+/* -----------------------------------------
+Setup Component
+------------------------------------------ */
+
+/* Button */
+.btn-master {
+  padding: 13px 36px 13px 36px;
+  border-radius: 100px;
+  border: 0;
+  font-weight: 500;
+}
+
+.btn-mastery {
+  padding: 15px 36px 15px 36px;
+  border-radius: 100px;
+  border: 0;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: var(--orange);
+  border-color: var(--orange-light);
+}
+
+.btn-primary:hover {
+  color: var(--orange);
+  background-color: var(--orange-light);
+}
+
+.orange {
+  background-color: var(--orange-light);
+  color: var(--orange);
+}
+
+.red {
+  background-color: var(--red-light);
+  color: var(--red);
+}
+
+.blue {
+  background-color: var(--blue-light);
+  color: var(--blue);
+}
+/* -----------------------------------------
+Navbar
+------------------------------------------ */
+
+.navbar {
+  padding: 20px 0;
+  background-color: #fff;
+  box-shadow: 1px 8px 61px 0px rgb(22 28 51 / 8%);
+}
+
+.nav-link {
+  margin-left: 35px;
+  font-weight: 500;
+  color: var(--gray);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--orange);
+}
+
+.number {
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--gray);
+}
+
+.nav-number {
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--gray);
+}
+
+/* -----------------------------------------
+Hero Section
+------------------------------------------ */
+section.hero {
+  padding: 50px 0;
+  background-color: var(--gray-light);
+  border-radius: 0 0 300px;
+}
+
+section.hero .text {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+section.hero .hastag {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--orange);
+}
+
+span {
+  color: var(--orange);
+}
+
+section.hero .description {
+  font-weight: 400;
+  width: 420px;
+  text-align: justify;
+  color: var(--gray);
+}
+
+/* -----------------------------------------
+Services Section
+------------------------------------------ */
+section.service {
+  padding-top: 75px;
+}
+
+section.service .padding {
+  padding: 3rem 0 0 3rem;
+}
+
+section.service .text-padding {
+  padding-top: 80px;
+}
+
+section.service .hastag {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--orange);
+}
+
+section.service .text {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+/* Hastag */
+section.service .hastag-tc {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--orange);
+}
+
+section.service .hastag-ph {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--red);
+}
+
+section.service .hastag-mh {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--blue);
+}
+
+section.service .text-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+section.service .description {
+  width: 384px;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+  color: var(--gray);
+}
+
+section.service .pl {
+  padding-left: 85px;
+}
+
+section.service .pleft {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+section.service .tleft {
+  padding-left: 2rem;
+}
+
+/* -----------------------------------------
+maintenance Section
+------------------------------------------ */
+.maintenance {
+  margin-top: 100px;
+  background: #fda829;
+  max-height: fit-content;
+  padding: 70px 0 70px 0;
+}
+
+.maintenance .copywriting {
+  margin-top: 80px;
+}
+
+section.maintenance .hastag {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+section.maintenance .text-title {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.maintenance .support {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+/* -----------------------------------------
+Client Section
+------------------------------------------ */
+section.client {
+  padding-top: 100px;
+}
+
+section.client .hastag {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--orange);
+}
+
+section.client .text {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+section.client .client-img .icon {
+  width: 200px;
+  height: auto;
+}
+
+/* -----------------------------------------
+Footer
+------------------------------------------ */
+.about-footer {
+  padding-top: 20px;
+  padding-right: 50px;
+  text-align: justify;
+}
+
+.bg-gray {
+  background-color: #f7f7fb;
+}
+.text-custom {
+  color: #4b4b4b;
+}
+.w-600 {
+  font-weight: 500;
+}
+.text-align-justify {
+  text-align: justify;
+}
+.mr-4 {
+  margin-right: 20px;
+}
+.mr-l {
+  margin-right: 50px;
+}
+
+.shape {
+  width: fit-content;
+  background-color: #ff9900;
+  border-radius: 5px;
+}
+
+.nav-footer {
+  color: #4b4b4b;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-footer:hover {
+  color: #ff9900;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+h6 {
+  color: #000000;
+}
+
+.copyright-text {
+  font-size: 15px;
+  color: #a5a5a5;
+  margin-bottom: -10px;
+}
+
+.line-straight {
+  height: 5px;
+  background-color: orange;
+}
+
+.footer-section p {
+  color: #4b4b4b;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* -----------------------------------------
+About Us Page
+------------------------------------------ */
+section.about-us {
+  background: var(--gray-light);
+  padding-top: 75px;
+}
+
+section.about-us .hastag {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--orange);
+}
+
+section.about-us .text-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+}
+
+section.about-us .text-subtitle {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 45px;
+}
+
+section.about-us .description {
+  padding-top: 10px;
+  font-weight: 300;
+}
+
+section.about-us .description-second {
+  padding-top: 20px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+/* -----------------------------------------
+Penawaran Service Section
+------------------------------------------ */
+section.service-penawaran {
+  padding-top: 75px;
+  background-color: var(--gray-light);
+}
+
+section.service-penawaran .padding {
+  padding: 3rem 0 0 3rem;
+}
+
+section.service-penawaran .text-padding {
+  padding-top: 80px;
+}
+
+section.service-penawaran .hastag {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--orange);
+}
+
+section.service-penawaran .text {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+/* Hastag */
+section.service-penawaran .hastag-tc {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--orange);
+}
+
+section.service-penawaran .hastag-ph {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--red);
+}
+
+section.service-penawaran .hastag-mh {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--blue);
+}
+
+section.service-penawaran .text-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+section.service-penawaran .description {
+  width: 384px;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+  color: var(--gray);
+}
+
+section.service-penawaran .pl {
+  padding-left: 85px;
+}
+
+section.service-penawaran .pleft {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+section.service-penawaran .tleft {
+  padding-left: 2rem;
+}
+
+.penawaran-card-responsive {
+  background: #fff;
+  border: none;
+  border-radius: 14px;
+  color: #34364a;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.thumbnail-penawaran {
+  border-radius: 16px;
+  max-height: 210px;
+  min-height: auto !important;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.penawaran-card-responsive a {
+  border-bottom: none;
+}
+.penawaran-name{
+  color: #34364a;
+  font-size: 20px;
+  font-weight: 700 !important;
+  line-height: 30px;
+}
+
+/* -----------------------------------------
+Responsive Section
+------------------------------------------ */
+@media (max-width: 576px) {
+  /* -----------------------------------------
+  Navbar Section
+  ------------------------------------------ */
+
+  .phone-number,
+  .phone-number i {
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  .phone-number .nav-number {
+    display: none;
+  }
+
+  /* -----------------------------------------
+  Hero Section
+  ------------------------------------------ */
+  .number {
+    display: none;
+  }
+
+  section.hero a.btn {
+    display: none;
+  }
+
+  section.hero,
+  section.service,
+  section.client {
+    text-align: center;
+  }
+
+  .m-6 {
+    margin: 0 0 0 0;
+    justify-content: center;
+  }
+
+  section.hero .description {
+    width: fit-content;
+    text-align: center;
+  }
+
+  .--mobile-image {
+    margin-top: 30px;
+  }
+
+  /* -----------------------------------------
+  Hero Section
+  ------------------------------------------ */
+
+  section.service .padding {
+    padding: 0 0 0 0;
+  }
+
+  section.service .description {
+    width: fit-content;
+    text-align: justify;
+  }
+
+  section.service .pl {
+    padding: 10px 0 0 0;
+  }
+
+  .img-tools-1 {
+    margin-top: 50px;
+  }
+
+  section.service .pleft {
+    padding: 0 0 0 0;
+  }
+
+  section.service .tleft {
+    padding: 0 0 0 0;
+  }
+  section.service .text-padding {
+    padding-top: 35px;
+  }
+
+  /* -----------------------------------------
+  Maintenance Section
+  ------------------------------------------ */
+  .maintenance {
+    margin-top: 100px;
+    background: #fda829;
+    padding: 0 0 0 0;
+    max-height: fit-content;
+    padding-bottom: 70px;
+  }
+
+  /* -----------------------------------------
+  Client Section
+  ------------------------------------------ */
+  section.client {
+    padding-top: 55px;
+  }
+
+  /* -----------------------------------------
+  Footer Section
+  ------------------------------------------ */
+  .about-footer {
+    padding: 30px 20px 0px 20px;
+    text-align: center;
+  }
+  .mr-4 {
+    margin: 0 20px 0 20px;
+  }
+
+  /* -----------------------------------------
+  About Us Section
+  ------------------------------------------ */
+  section.about-us .description {
+    margin: 0 20px 0 20px;
+  }
+
+  section.about-us .description-second {
+    margin: 0 40px 0 40px;
+  }
+
+  .about-us .col-4 {
+    width: fit-content;
+  }
+}

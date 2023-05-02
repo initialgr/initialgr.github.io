@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Persewaan Alat Berat</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/brand/icon.svg"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Font Awesome Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="/"
+          ><img src="assets/img/brand/Fixed.svg"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../penawaran">Penawaran</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Jasa Kami
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../testing">Bongkar Pasang</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Maintenance Alat</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Service Alat</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about-us">Tentang Kami</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center phone-number">
+              <i class="fa-solid fa-phone me-3"></i>
+              <div class="nav-number">+62 85155417522</div>
+            </div>
+            <button class="btn btn-master btn-primary shadow-sm d-sm d-block">
+              Hubungi
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="row m-6">
+          <!-- Text -->
+          <div class="col-md-6 mt-5">
+            <div class="hastag mb-2">PT BERKAH ANJANGSANA MANDIRI</div>
+            <div class="text">
+              Menyediakan <span>Persewaan</span> <br />
+              Alat <span>Berat</span>
+            </div>
+            <div class="description mt-3">
+              Menyediakan Alat Bantu Percepatan Proyek seperti Tower Crane,
+              Passenger Hoist, Material Hoist, jasa pasang bongkar alat dan
+              maintenance alat.
+            </div>
+            <div class="mt-4">
+              <a href="#" class="btn btn-master btn-primary">Lihat Profil</a>
+            </div>
+          </div>
+          <!-- Image -->
+          <div class="col-md-6 --mobile-image">
+            <img src="assets/img/hero.png" alt="hero-img" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Section -->
+    <section class="service">
+      <!-- Title -->
+      <div class="container text-center">
+        <div class="row">
+          <div class="hastag mb-2">PELAYANAN KAMI</div>
+          <div class="text">
+            Menyediakan Jasa Pasang <br />
+            Bongkar Alat dan Persewaan Alat
+          </div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <!-- Tower Crane -->
+      <div class="container padding">
+        <div class="row m-4">
+          <!-- Images -->
+          <div class="col-md-6 text-center img-tools">
+            <img src="assets/img/tools/tc.png" alt="img-1" class="w-75" />
+          </div>
+          <!-- Text -->
+          <div class="col-md-6 text-padding">
+            <div class="hastag-tc">Tower Crane</div>
+            <div class="text-title">Sewa Tower Crane</div>
+            <div class="description">
+              Kami menyediakan persewaan alat berat Tower Crane beserta
+              Operator, menerima jasa pasang bongkar Tower Crane secara terpisah
+              dan maintenance alat Tower Crane.
+            </div>
+            <div class="mt-4">
+              <button
+                href="#"
+                class="btn btn-mastery btn-secondary orange"
+                data-bs-toggle="popover"
+                data-bs-trigger="focus"
+                data-bs-content="Saat ini belum ada penawaran yang tersedia..."
+              >
+                Lihat Penawaran
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Passenger Hoist -->
+      <div class="container pl">
+        <div class="row m-4">
+          <!-- Text -->
+          <div class="col-md-6 text-padding pl">
+            <div class="hastag-ph">Passenger Hoist</div>
+            <div class="text-title">Sewa Passenger Hoist</div>
+            <div class="description">
+              Kami menyediakan persewaan alat berat Passenger Hoist beserta
+              Operator, menerima jasa pasang bongkar Passenger Hoist secara
+              terpisah dan maintenance alat Passenger Hoist.
+            </div>
+            <div class="mt-4">
+              <button
+                href="#"
+                class="btn btn-mastery btn-secondary red"
+                data-bs-toggle="popover"
+                data-bs-trigger="focus"
+                data-bs-content="Saat ini belum ada penawaran yang tersedia..."
+              >
+                Lihat Penawaran
+              </button>
+            </div>
+          </div>
+          <!-- Images -->
+          <div class="col-md-6 text-center img-tools-1">
+            <img src="assets/img/tools/ph.png" alt="img-1" class="w-75" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Material Hoist -->
+      <div class="container pleft">
+        <div class="row m-4">
+          <!-- Images -->
+          <div class="col-md-6 text-center img-tools-1">
+            <img src="assets/img/tools/mh.png" alt="img-1" class="w-75" />
+          </div>
+          <!-- Text -->
+          <div class="col-md-6 text-padding tleft">
+            <div class="hastag-mh">Material Hoist</div>
+            <div class="text-title">Sewa Material Hoist</div>
+            <div class="description">
+              Kami menyediakan persewaan alat berat Material Hoist beserta
+              Operator, menerima jasa pasang bongkar Material Hoist secara
+              terpisah dan maintenance alat Passenger Hoist.
+            </div>
+            <div class="mt-4">
+              <a
+                role="button"
+                href="../penawaran"
+                class="btn btn-mastery btn-secondary blue"
+              >
+                Lihat Penawaran
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- maintenance Section -->
+    <section class="maintenance">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-12 copywriting">
+            <p class="hastag text-white">Jasa Lainnya</p>
+            <h2 class="text-title text-white">Jasa Service Alat</h2>
+            <p class="support">
+              Kami juga menerima Jasa Service Alat <br />
+              dan Jasa Service Panel Hoist.
+            </p>
+            <p>
+              <a href="#" class="btn btn-mastery btn-secondary orange mt-1">
+                Lihat Penawaran
+              </a>
+            </p>
+          </div>
+          <div class="col-lg-7 col-12">
+            <div class="row d-flex img-fluid">
+              <img src="assets/img/tools/maintenance.png" alt="" class="w-50" />
+              <img src="assets/img/tools/panel.png" alt="" class="w-50" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Section -->
+    <section class="client">
+      <div class="container">
+        <div class="text-header text-center">
+          <div class="hastag">PROYEK YANG DIKERJAKAN</div>
+          <div class="text">Client Kami</div>
+        </div>
+        <div class="group-items mt-5 mb-5">
+          <div class="row justify-content-md-center">
+            <div class="col-md-auto">
+              <div class="client-img">
+                <img src="assets/img/client/ppurban.png" class="icon" />
+              </div>
+            </div>
+
+            <div class="col-md-auto">
+              <div class="client-img">
+                <img src="assets/img/client/pp.png" class="icon" />
+              </div>
+            </div>
+
+            <div class="col-md-auto">
+              <div class="client-img">
+                <img src="assets/img/client/NRC.png" class="icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray text-center text-lg-start text-custom p-4">
+      <section class="footer-section">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="mr-l col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <a class="navbar-brand" href="#">
+                <img src="assets/img/brand/Fixed.svg" alt="" />
+              </a>
+              <p class="about-footer">
+                Menyediakan Alat Bantu Percepatan Proyek seperti Tower Crane,
+                Passenger Hoist, Material Hoist, dan Jasa Lainnya.
+              </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="fw-bold">Perusahaan</h6>
+              <hr class="mt-0 d-inline-block mx-auto" style="height: 3px" />
+              <p><a href="../about-us" class="nav-footer">Tentang Kami</a></p>
+              <p><a href="#!" class="nav-footer">Subkontraktor</a></p>
+              <p><a href="#!" class="nav-footer">Penawaran</a></p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="fw-bold">Useful Links</h6>
+              <hr class="mt-0 d-inline-block mx-auto" style="height: 3px" />
+              <p>
+                <a
+                  href="#!"
+                  class="nav-footer"
+                  data-bs-toggle="modal"
+                  data-bs-target="#privacyPolicy"
+                  >Privacy & Policy</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#!"
+                  class="nav-footer"
+                  data-bs-toggle="modal"
+                  data-bs-target="#termsConditions"
+                  >Terms & Conditions</a
+                >
+              </p>
+              <p>
+                <a
+                  target="”_blank”"
+                  href="https://berkahanjangsanamandiri.notion.site/Jam-Operasional-52a4860741694d48beebf914f57bd87b"
+                  class="nav-footer"
+                  data-bs-toggle="modal"
+                  data-bs-target="#jamOperasional"
+                  >Jam Operasional</a
+                >
+              </p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="fw-bold">Lainnya</h6>
+              <hr class="mt-0 d-inline-block mx-auto" style="height: 3px" />
+              <p><a href="#!" class="nav-footer">Partner Kami</a></p>
+              <p><a href="#!" class="nav-footer">Klien Kami</a></p>
+              <p><a href="#!" class="nav-footer">Blog</a></p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="fw-bold">Kantor kami</h6>
+              <hr class="mt-0 d-inline-block mx-auto" style="height: 3px" />
+              <p>PT Berkah Anjangsana Mandiri</p>
+              <p>Perumahan PGRI 1 Ciampea Blok L No.12</p>
+              <p>Kab. Bogor, Indonesia</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="text-center p-4 copyright-text bg-gray">
+      <a>© 2021-2023 PT Berkah Anjangsana Mandiri.</a>
+    </div>
+
+    <div class="line-straight fixed-bottom"></div>
+
+    <!-- Modal Privacy & Policy -->
+    <div
+      class="modal fade"
+      id="privacyPolicy"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Privacy & Policy
+            </h1>
+          </div>
+          <div class="modal-body text-align-justify">
+            <strong>PT Berkah Anjangsana Mandiri </strong>(“kami”) berkomitmen
+            untuk menjaga kerahasiaan dan keamanan informasi pribadi Anda. Kami
+            membuat Kebijakan Privasi ini agar Anda memahami cara kami
+            mengumpulkan, menggunakan, dan membagikan data tentang Anda.
+            <br /><br />
+            Kebijakan Privasi ini mengatur landasan dasar mengenai bagaimana
+            Kami menggunakan informasi pribadi yang Kami kumpulkan dan/atau atau
+            Anda berikan (“Informasi Pribadi”). Kebijakan Privasi ini berlaku
+            bagi seluruh pengguna Layanan, kecuali diatur pada Kebijakan Privasi
+            yang terpisah. Mohon membaca Kebijakan Privasi Kami dengan seksama
+            sehingga Anda dapat memahami pendekatan dan cara Kami dalam
+            menggunakan informasi tersebut. <br /><br />
+            Dengan menggunakan Layanan, Anda menyetujui ketentuan Kebijakan
+            Privasi ini. Anda sebaiknya tidak menggunakan Layanan jika Anda
+            tidak menyetujui Kebijakan Privasi ini atau perjanjian lainnya yang
+            mengatur penggunaan Layanan oleh Anda.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Terms & Conditions -->
+    <div
+      class="modal fade"
+      id="termsConditions"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Terms & Conditions
+            </h1>
+          </div>
+          <div class="modal-body text-align-justify">
+            Syarat dan Ketentuan ini merupakan perjanjian antara pengguna dan
+            <strong>PT Berkah Anjangsana Mandiri</strong> (“Kami”). Syarat dan
+            Ketentuan ini mengatur Anda saat mengakses dan menggunakan seluruh
+            layanan, fitur dan produk yang kami sediakan (untuk selanjutnya
+            secara bersama-sama akan disebut sebagai “Platform”). <br /><br />
+            Harap membaca Syarat dan Ketentuan ini secara seksama sebelum Anda
+            mulai menggunakan Platform Kami, karena peraturan ini berlaku pada
+            penggunaan Anda terhadap Platform Kami. <br /><br />
+            Anda mengerti dan setuju bahwa Syarat dan Ketentuan ini merupakan
+            perjanjian dalam bentuk elektronik dan tindakan Anda menekan tombol
+            ‘daftar’ saat pembukaan Akun atau tombol ‘masuk’ saat akan mengakses
+            Akun Anda merupakan persetujuan aktif Anda untuk mengikatkan diri
+            dalam perjanjian dengan Kami sehingga keberlakuan Syarat dan
+            Ketentuan ini dan Kebijakan Privasi adalah sah dan mengikat secara
+            hukum dan terus berlaku sepanjang penggunaan Platform oleh Anda.
+            Bila Anda tidak setuju dengan Syarat dan Ketentuan Penggunaan ini,
+            maka Anda tidak diperkenankan menggunakan Platform kami.
+            <br /><br />
+            Kami dapat mengubah Syarat dan Ketentuan ini dari waktu ke waktu,
+            perubahan akan diberitahukan kepada Anda melalui email, melalui
+            pemberitahuan yang diunggah di Layanan, atau sebagaimana yang
+            diwajibkan oleh hukum yang berlaku; dan Anda setuju bahwa Anda
+            bertanggung jawab untuk meninjau Syarat dan Ketentuan ini secara
+            berkala. Penggunaan secara berkelanjutan oleh Anda atas layanan yang
+            diberikan dalam Platform setelah perubahan dan/atau penambahan
+            Syarat dan Ketentuan yang berlaku, akan dianggap sebagai persetujuan
+            dan penerimaan Anda atas perubahan dan/atau penambahan tersebut.
+            Anda dapat menyampaikan keberatan atas perubahan dan/atau penambahan
+            atas Syarat dan Ketentuan yang berlaku yang dianggap merugikan Anda
+            secara komersial dan material dalam jangka waktu 14 (empat belas)
+            hari kalender sejak perubahan dan/atau penambahan tersebut
+            dipublikasikan. Kami berhak untuk menghentikan akses Anda terhadap
+            Platform dalam hal Anda berkeberatan atas perubahan dan/atau
+            penambahan Syarat dan Ketentuan yang berlaku tersebut.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Jam Operasional -->
+    <div
+      class="modal fade"
+      id="jamOperasional"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Jam Operasional
+            </h1>
+          </div>
+          <div class="modal-body text-align-justify">
+            Berikut ini merupakan jam operasional
+            <strong>PT Berkah Anjangsana Mandiri</strong>. Jam operasional ini
+            mencakup pelayanan penawaran, transaksi, dan customer service.
+            <br /><br />
+            <strong>Jadwal Operasional :</strong> <br />
+            Senin - Jumat <br />
+            09:00 - 17:00 WIB <br />
+            Sabtu <br />
+            09:00 - 15:00 WIB <br />
+            Minggu <br />
+            10:00 - 15:00 WIB
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <!-- Bootsrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const popoverTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="popover"]'
+      );
+      const popoverList = [...popoverTriggerList].map(
+        (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+      );
+      const popover = new bootstrap.Popover(".popover-dismiss", {
+        trigger: "focus",
+      });
+    </script>
+  </body>
+</html>
